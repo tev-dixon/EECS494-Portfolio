@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Ascent p2_gold - Portfolio</title>
+  <link rel="stylesheet" href="../../css/project-style.css" />
+  <link rel="stylesheet" href="project2-style.css" />
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Color Ascent p2_gold</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#game-details">Game Details</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#credits">Credits</a></li>
+        <li><a href="../../index.html">← Back to Portfolio</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Color Ascent</h1>
+      <p>A 3D Co-Op first person puzzle platformer; developed for EECS 494 at the University of Michigan.</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <!-- About Section -->
+      <section id="about">
+        <h2>About the Project</h2>
+        <p>
+          This game was created for the EECS 494 class project at the University of Michigan.
+        </p>
+        <p>
+          I had no teammates for this project and created everything myself (with the help of the tools and asset libraries listed in the credits.)
+        </p>
+        <p>
+          The game's primary complexities were: developing the voxel engine in Unity, resolving collisions without relying on Unity colliders, and creating a streamlined map creation/save/load system.
+        </p>
+        <p><strong>Technologies Used:</strong></p>
+        <ul>
+            <li>Unity Game Engine</li>
+            <li>C# Programming Language</li>
+            <li>MagicaVoxel Software</li>
+            <li>Python Programming Language</li>
+            <li>Unity Version Control (Formerly Plastic SCM)</li>
+            <li>Jira for Project Management</li>
+        </ul>
+      </section>
+
+      <!-- Game Details Section -->
+      <section id="game-details">
+        <h2>Game Details</h2>
+        <div class="info-group">
+          <h3>Game Controls</h3>
+          <ul>
+            <li><strong>Requires 2 Gamepads</strong></li>
+            <li><strong>Controls learned in game</strong></li>
+          </ul>
+        </div>
+        <div class="info-group">
+          <h3>Cheat Codes</h3>
+          <ul>
+            <li><strong>Down D-Pad:</strong> Skip level</li>
+            <li><strong>Left D-Pad</strong> Restart game</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Download Section -->
+      <section id="download">
+        <h2>Download / Play the Game</h2>
+        <p><strong>Click the button below to download the game build:</strong></p>
+        <div class="download-buttons">
+          <a class="download-button" href="../../downloads/p2/WindowsBuild.zip" download>
+            <i class="fab fa-windows"></i>
+            <span>Download Windows Build</span>
+          </a>
+          <a class="download-button" href="../../downloads/p2/MacBuild.zip" download>
+            <i class="fab fa-apple"></i>
+            <span>Download Mac Build</span>
+          </a>
+        </div>
+        <div class="online-play">
+          <p>Alternatively, play our game hosted online by Itch.io! Note that graphics are significantly worse on the web game due to shader incompatibilities. I reccomend downloading the Mac/Windows build.</p>
+          <a class="online-button" href="https://teddixon.itch.io/ascend-p2-gold">
+            <i class="fas fa-gamepad"></i>
+            <span>Click here</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Credits Section -->
+      <section id="credits">
+        <h2>Credits</h2>
+        <ul>
+          <li>Credit to ChatGPT for general assistance in writing code and assistance in fixing bugs.</li>
+          <li>Credit to Anthropic Claude for writing the shaders.</li>
+          <li>Credit to ChatGPT for writing many of the on screen text display classes.</li>
+          <li>Credit to ChatGPT for streamlining map design with editor scripts and python data manipulation.</li>
+          <li>Credit to MagicaVoxel for providing a robust toolset to create voxel structures in.</li>
+          <li>Credit to Pixabay / Placidplace for the win screen visual effects.</li>
+          <li>Credit to opengameart.org for sound effects.</li>
+          <li>Credit to Suno AI for AI music generation.</li>
+          <li>Credit to ChatGPT for assistance with the portfolio site.</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Thomas Dixon</p>
+      <p>EECS 494 Project - University of Michigan</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Legend of Zelda p1_gold - Portfolio</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Thomas Dixon - Portfolio</title>
+  <link rel="stylesheet" href="css/main-style.css" />
   <!-- FontAwesome CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,17 +13,16 @@
   <!-- Header and Navigation -->
   <header>
     <nav class="navbar">
-      <div class="logo">Legend of Zelda p1_gold</div>
+      <div class="logo">Thomas Dixon</div>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#game-details">Game Details</a></li>
-        <li><a href="#download">Download</a></li>
-        <li><a href="#credits">Credits</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="hero">
-      <h1>Legend of Zelda</h1>
-      <p>A remake of a classic game with a twist; developed for EECS 494 at the University of Michigan.</p>
+      <h1>Game Development Portfolio</h1>
+      <p>EECS 494 Projects - University of Michigan</p>
     </div>
   </header>
 
@@ -32,81 +31,78 @@
     <div class="container">
       <!-- About Section -->
       <section id="about">
-        <h2>About the Project</h2>
+        <h2>About Me</h2>
         <p>
-          This game was created for the EECS 494 class project at the University of Michigan.
-          It was a collaborative effort between two students. I, Thomas, was responsible for
-          developing the enemy AI, stalfos, keese, goriya, the weapons, the portal blaster implementation,
-          the health/damage/knockback systems, doors, collectibles, the inventory system, pushable blocks,
-          loot mechanics, and stability/bug fixes.
+          Hi, I'm Thomas Dixon, a student at the University of Michigan studying game development through EECS 494.
+          This portfolio showcases the projects I've created throughout my coursework, demonstrating my skills in
+          game design, development, and programming.
         </p>
-        <p><strong>Technologies Used:</strong></p>
-        <ul>
-            <li>Unity Game Engine</li>
-            <li>C# Programming Language</li>
-            <li>Unity Version Control (Formerly Plastic SCM)</li>
-            <li>Jira for Project Management</li>
-            <li>Discord for Organization</li>
-        </ul>
       </section>
 
-      <!-- Game Details Section -->
-      <section id="game-details">
-        <h2>Game Details</h2>
-        <p>
-          The classic game Legend of Zelda meets the game Portal. Go dungeon crawling with a portal blaster,
-          solve complex puzzles, and enjoy this exciting reimagination of the Legend of Zelda.
-        </p>
-        <div class="info-group">
-          <h3>Game Controls</h3>
-          <ul>
-            <li><strong>WASD/Arrow Keys:</strong> Movement</li>
-            <li><strong>X:</strong> Primary Weapon (Sword)</li>
-            <li><strong>Z:</strong> Secondary Weapon</li>
-          </ul>
-        </div>
-        <div class="info-group">
-          <h3>Cheat Codes</h3>
-          <ul>
-            <li><strong>Press 1:</strong> God Mode (infinite resources and unlocks all weapons)</li>
-            <li><strong>Press 4:</strong> Go to p1_gold dungeon (the portal blaster dungeon)</li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Download Section -->
-      <section id="download">
-        <h2>Download / Play the Game</h2>
-        <p><strong>Click the button below to download the game build:</strong></p>
-        <div class="download-buttons">
-          <a class="download-button" href="downloads/WindowsBuild.zip" download>
-            <i class="fab fa-windows"></i>
-            <span>Download Windows Build</span>
-          </a>
-          <a class="download-button" href="downloads/MacBuild.zip" download>
-            <i class="fab fa-apple"></i>
-            <span>Download Mac Build</span>
-          </a>
-        </div>
-        <div class="online-play">
-          <p>Alternatively, play our game hosted online by Itch.io!</p>
-          <a class="online-button" href="https://teddixon.itch.io/legend-of-zelda">
-            <i class="fas fa-gamepad"></i>
-            <span>Click here</span>
-          </a>
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+        
+        <div class="project-grid">
+          <!-- Project 1 Card -->
+          <div class="project-card">
+            <div class="project-image" style="background-image: url('assets/tile.png');">
+              <div class="project-overlay">
+                <h3>Legend of Zelda p1_gold</h3>
+              </div>
+            </div>
+            <div class="project-description">
+              <p>A remake of the classic Legend of Zelda game with a Portal-inspired twist.</p>
+              <a href="projects/project1/index.html" class="view-project">View Project</a>
+            </div>
+          </div>
+          
+          <!-- Project 2 Card -->
+          <div class="project-card">
+            <div class="project-image" style="background-image: url('assets/icon.png');">
+              <div class="project-overlay">
+                <h3>Project 2</h3>
+              </div>
+            </div>
+            <div class="project-description">
+              <p>Description of your second EECS 494 project.</p>
+              <a href="projects/project2/index.html" class="view-project">View Project</a>
+            </div>
+          </div>
+          
+          <!-- Project 3 Card -->
+          <div class="project-card coming-soon">
+            <div class="project-image">
+              <div class="project-overlay">
+                <h3>Project 3</h3>
+                <span class="coming-soon-badge">Coming Soon</span>
+              </div>
+            </div>
+            <div class="project-description">
+              <p>Future project - stay tuned!</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <!-- Credits Section -->
-      <section id="credits">
-        <h2>Credits</h2>
-        <ul>
-          <li>Credit to Mister Mike for ripping sprites.</li>
-          <li>Credit to ChatGPT for general assistance with learning Unity and fixing bugs.</li>
-          <li>Credit to ChatGPT for assistance with the 'AssignWaterLayerToTagged' Editor script.</li>
-          <li>Credit to ChatGPT for assistance in the 'BladeTrap' script.</li>
-          <li>Credit to ChatGPT for assistance with the portfolio site.</li>
-        </ul>
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me regarding my work or opportunities:</p>
+        <div class="contact-links">
+          <a href="mailto:teddixon@umich.edu" class="contact-button">
+            <i class="fas fa-envelope"></i>
+            <span>Email Me</span>
+          </a>
+          <a href="https://github.com/tev-dixon" target="_blank" class="contact-button">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/thomas-dixon-22b527253/" target="_blank" class="contact-button">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
       </section>
     </div>
   </main>
@@ -115,7 +111,7 @@
   <footer>
     <div class="container">
       <p>&copy; 2025 Thomas Dixon</p>
-      <p>EECS 494 Project - University of Michigan</p>
+      <p>EECS 494 Portfolio - University of Michigan</p>
     </div>
   </footer>
 </body>
