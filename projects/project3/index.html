@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Fumes - Portfolio</title>
+  <link rel="stylesheet" href="../../css/project-style.css" />
+  <link rel="stylesheet" href="project3-style.css" />
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Final Fumes</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#game-details">Game Details</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#credits">Credits</a></li>
+        <li><a href="../../index.html">← Back to Portfolio</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Final Fumes</h1>
+      <p>A First Person 3D Horror Driving game; developed for EECS 494 at the University of Michigan.</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <!-- About Section -->
+      <section id="about">
+        <h2>About the Project</h2>
+        <p>
+          This game was created for the EECS 494 class project at the University of Michigan.
+        </p>
+        <p>
+          I had 3 teammates for this project (see credits). I largely worked on the procedural generation system, the editor tools we used for creating levels, the input system, the radio logic and sounds, the main menu, the warped monster, and a decent portion of the journal pages.)
+        </p>
+        <p><strong>The game's primary complexities were:</strong></p>
+        <ul>
+            <li>Figuring out that 3 weeks into development, the primary planned mechanic was not fun.</li>
+            <li>Guiding the player to understand the radio.</li>
+            <li>Making procedural generation work well (we went through 3-4 iterations of this).</li>
+            <li>Balancing monsters and difficulty for the wide variety of skill levels.</li>
+            <li>Making the UI integrated seamlessly into the world.</li>
+            <li>Creating a balanced shop system with a currency, repairs, and upgrades.</li>
+            <li>Making a persistant scene transition manager with a cache to store data on scene reload.</li>
+        </ul>
+        <p><strong>Technologies Used:</strong></p>
+        <ul>
+            <li>Unity Game Engine</li>
+            <li>C# Programming Language</li>
+            <li>MagicaVoxel Software</li>
+            <li>Python Programming Language (scripts to create in-game assets and audio)</li>
+            <li>Audacity Software</li>
+            <li>ElevenLabs AI Voice Software</li>
+            <li>Unity Version Control (Formerly Plastic SCM)</li>
+            <li>Jira for Project Management</li>
+        </ul>
+      </section>
+
+      <!-- Game Details Section -->
+      <section id="game-details">
+        <h2>Game Details</h2>
+        <div class="info-group">
+          <h3>Game Controls</h3>
+          <ul>
+            <li><strong>Requires Keyboard/Mouse</strong></li>
+            <li><strong>Controls learned in game</strong></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Download Section -->
+      <section id="download">
+        <h2>Download / Play the Game</h2>
+        <p><strong>Click the button below to download the game build:</strong></p>
+        <div class="download-buttons">
+          <a class="download-button" href="../../downloads/p3/WindowsBuild.zip" download>
+            <i class="fab fa-windows"></i>
+            <span>Download Windows Build</span>
+          </a>
+          <a class="download-button" href="../../downloads/p3/MacBuild.zip" download>
+            <i class="fab fa-apple"></i>
+            <span>Download Mac Build</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="../../images/p3/Final_Fumes_Main_Menu_Image.png" alt="Screenshot 1">
+        <img src="../../images/p3/Final_Fumes_Cover_Image.png" alt="Screenshot 2">
+        <img src="../../images/p3/Final_Fumes_Journal_Image.png" alt="Screenshot 3">
+        <img src="../../images/p3/Final_Fumes_Dash_Image.png" alt="Screenshot 4">
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+      <h2>Gameplay Video</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/AQSIWIgwqFk" 
+                title="Final Fumes Trailer" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+
+      <!-- Credits Section -->
+      <section id="credits">
+        <h2>Developer Team</h2>
+        <ul>
+          <li>Alan Tommy</li>
+          <li>Isaiah Richards</li>
+          <li>Jagger Pacheco</li>
+          <li>Thomas Dixon</li>
+        </ul>
+
+        <h2>Credits</h2>
+        <ul>
+          <li>Credit to Joseph Brown for main menu music; (used with permission).</li>
+          <li>Radio music: https://www.youtube.com/watch?v=FV4DxR7TGOY</li>
+
+          <li>Quick Outline Effect by Chris Nolet: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488</li>
+          <li>Voxel Optimization Tool: https://davidevofficial.itch.io/voxeloptimizer</li>
+
+          <li>Car Crash Sound 1: https://pixabay.com/sound-effects/car-accident-real-interior-46387/</li>
+          <li>Car Crash Sound 2: https://pixabay.com/sound-effects/car-crash-edit-two-92001/</li>
+          <li>Car Idle Sound: https://pixabay.com/sound-effects/diesel-truck-idling-frontwav-14418/</li>
+          <li>Stalker (Dark humanoid enemy) reference model: https://www.cgtrader.com/free-3d-models/architectural/decoration/screaming-statue</li>
+          <li>Stalker (Dark humanoid enemy) screech sound: https://freesound.org/people/Artninja/sounds/733955/</li>
+          <li>Lurker (Spider enemy) reference model: https://www.cgtrader.com/free-3d-print-models/miniatures/other/torture-spider-3d-printer-torture-test</li>
+          <li>Lurker (Spider enemy) hiss sound: https://freesound.org/people/Garuda1982/sounds/539299/</li>
+
+          <li>Player Vehicle Base Model: https://www.cadnav.com/3d-models/model-11252.html</li>
+          <li>Credit to TextStudio for main menu text tools: https://www.textstudio.com/</li>
+          <li>Credit to Textures4Photoshop for main menu text material textures https://www.textures4photoshop.com/tex/metal/old-rusted-metal-surface-texture.aspx#google_vignette</li>
+          <li>Hint font used in project: https://www.fonts4free.net/pixel-emulator-font.html</li>
+          <li>Radio Font: https://www.fontspace.com/digital-7-font-f7087</li>
+
+          <li>Credit to ChatGPT for general assistance in bug fixes and code discussion.</li>
+
+          <li>Credit to ElevenLabs AI for voice acting.</li>
+          
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Left Right Studios</p>
+      <p>EECS 494 Project - University of Michigan</p>
+    </div>
+  </footer>
+</body>
+</html>
